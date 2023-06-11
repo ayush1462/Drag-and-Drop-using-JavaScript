@@ -1,0 +1,56 @@
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Styles for the body element */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for elements with the class name "container" */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for elements with the IDs "right" and "left" */
+#right,
+#left {
+  width: 300px;
+  min-height: 500px;
+  margin: 20px;
+  border: 2px dashed rgb(8, 8, 8);
+}
+
+/* Styles for elements with the class name "list" */
+.list {
+  background-color: rgb(41, 62, 255);
+  height: 2.5rem;
+  width: 8rem;
+  margin: 4rem auto;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Styles for the element with the ID "clear" */
+#clear {
+  background-color: rgb(22, 45, 255);
+  padding: 0.7rem 2rem;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
